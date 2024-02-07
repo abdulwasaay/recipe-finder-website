@@ -1,0 +1,139 @@
+/* my custom css  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(48, 47, 47, 0.548),rgba(0, 0, 0, 0.596)), url("/images/recipe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+.input-field{
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 10px;
+    outline: none;
+    background-color: #4242429a;
+    border: 1px solid white;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.search-button{
+    outline: none;
+    right: 600px;
+    border: 1px solid white;
+    color: white;
+    background-color: #4242429a;
+    height: 40px;
+    width: 45px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card-container{
+    flex-basis: 22.33333%;
+    margin: 10px;
+}
+
+.head h1{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+.img{
+    width: 400px;
+}
+
+.childSteps{
+    width: 500px;
+}
+
+@media (max-width:849px){
+    .img{
+        width: 50%;
+    }
+    .recipe-cont{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .steps{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width:531px){
+    .recipe-cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .img{
+        width: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .childSteps{
+        width: 80%;
+    }
+}
+
+@media (max-width:373px){
+    .img{
+        width: 80%;
+    }
+}
+
+@media (max-width:1084px){
+    .card-container{
+        flex-basis: 29.33333%;
+        width: 25rem;
+    }
+}
+
+@media (max-width:788px){
+    .card-container{
+        flex-basis: 43.33333%;
+        width: 25rem;
+    }
+}
+
+@media (max-width:472px){
+    .card-container{
+        flex-basis: 91.33333%;
+        width: 25rem;
+    }
+}
+@media (max-width:683px){
+    .contain{
+        width: 80%;
+    }
+    .input-field{
+        width: 100%;
+    }
+}
+
+@media (max-width:397px){
+    .recip-heading{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:307px){
+    .recip-heading{
+        font-size: 20px;
+    }
+}
